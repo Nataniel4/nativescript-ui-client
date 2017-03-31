@@ -1,0 +1,37 @@
+<center>
+  <br>
+  <span style="font-size:28px;">Run project</span>
+  <div class="ui-contentMenu">
+    <br><br><br>
+    <table cellspacing="10">
+      <tr>
+        <td>
+          <input type="button" value="Select project" onclick="NSRunProject.selectProject();">
+        </td>
+        <td>
+          <input type="text" id="project" readonly="true">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="radio" name="runAs" id="runAsAndroid"> Android
+          <br>
+          <input type="radio" name="runAs" id="runAsIos"> iOS
+          <br><br>
+          <input type="checkbox" id="runMode"> LiveSync Mode
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <br>
+          <input type="button" value="Run project" onclick="NSRunProject.runProject();">
+        </td>
+        <td style="text-align:right;padding-right:32px;">
+          <br>
+          <input type="button" value="Cancel" onclick="NSApplication.ui.backToMenu();">
+        </td>
+      </tr>
+    </table>
+    <br>
+  </div>
+</center>

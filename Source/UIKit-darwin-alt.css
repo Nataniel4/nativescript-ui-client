@@ -1,0 +1,105 @@
+/* macOS UIKit for HTML by Nataniel López */
+
+/* Body */
+body{
+    background: #1F1F1F;
+    color: #848884;
+    padding-top: 22px;
+	font-family: 'Helvetica Neue';
+	font-size: 13px;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+/* Buttons */
+input[type="button"]{
+	background: #979797;
+    color: #1F1F2F;
+	border: 1px solid #979797;
+    border-radius: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 13px;
+	padding-right: 15px;
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+	font-size: 13px;
+	text-align: center;
+    -webkit-user-select: none;
+    outline: none;
+    cursor: default;
+}
+input[type="button"]:active{
+	background: #B4B4B4;
+    border: 1px solid #B4B4B4;
+}
+
+/* A Buttons */
+a{
+	background: none;
+    color: #2F88E4;
+	border: none;
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+	font-size: 13px;
+	text-align: center;
+    text-decoration: none;
+    -webkit-user-select: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Input text */
+input[type="text"]{
+	background: #1C1C1C;
+    color: #FBFBFB;
+    border: 1px solid #373737;
+    border-radius: 0px;
+	padding-top: 4px;
+	padding-bottom: 1px;
+	padding-left: 3px;
+	padding-right: 3px;
+    font-family: 'Helvetica Neue';
+	font-size: 13px;
+    outline: none;
+    box-shadow:0px 0px 0px 26px rgba(182,215,254,0);
+    transition: box-shadow 0s;
+}
+input[type="text"]:focus{
+	transition: box-shadow 0.20s;
+	border-radius: 1px;
+	box-shadow:0px 0px 0px 3px rgba(32,56,107,1);
+}
+
+/* Input password */
+input[type="password"]{
+	background: #1C1C1C;
+    color: #FBFBFB;
+    border: 1px solid #373737;
+    border-radius: 0px;
+	padding-top: 4px;
+	padding-bottom: 1px;
+	padding-left: 3px;
+	padding-right: 3px;
+    font-family: 'Helvetica Neue';
+	font-size: 13px;
+    outline: none;
+    box-shadow:0px 0px 0px 26px rgba(182,215,254,0);
+    transition: box-shadow 0s;
+}
+input[type="password"]:focus{
+	transition: box-shadow 0.20s;
+	border-radius: 1px;
+	box-shadow:0px 0px 0px 3px rgba(32,56,107,1);
+}
+
+/* CheckBox */
+input[type="checkbox"]{
+    width: 14px;
+    height: 14px;
+}
+/* Radio */
+input[type="radio"]{
+    width: 16px;
+    height: 16px;
+}

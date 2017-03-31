@@ -1,0 +1,103 @@
+@import 'UiKit-darwin-alt.css';
+
+.ui-titlebar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 22px;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+body{
+  background-color: #272734;
+  padding: 0px;
+  margin: 0px;
+  color: #ffffff;
+  font-weight: lighter;
+}
+.ui-window{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  -webkit-transition: filter 0.25s;
+}
+.ui-banner{
+  background-color: #1600f8;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 24px;
+  padding-top: 26px;
+  overflow: hidden;
+  -webkit-transition: background-color 0.25s;
+}
+.ui-content{
+  padding: 24px;
+}
+.ui-loading{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.50);
+  display: none;
+  opacity: 0;
+  -webkit-transition: opacity 0.25s;
+  z-index: 3;
+}
+.ui-loading div{
+  position: fixed;
+  padding: 8px;
+  width: 48px;
+  height: 48px;
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 24px;
+  line-height: 48px;
+  text-align: center;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  margin-left: -32px;
+  margin-top: -32px;
+  z-index: 2;
+}
+.ui-mainMenu{
+  position: fixed;
+  top: 224px;
+  left: 50%;
+  margin-left: -256px;
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 10px;
+  width: 512px;
+  height: 256px;
+  z-index: 1;
+}
+.ui-mainMenu td{
+  width: 230px;
+  height: 130px;
+  text-align: center;
+  font-weight: lighter;
+  border-radius: 10px;
+  -webkit-transition: background-color 0.25s;
+}
+.ui-mainMenu td:hover{
+  background-color: #0f00f6;
+}
+.ui-mainMenu td:active{
+  -webkit-transition: background-color 0s;
+  background-color: #333333;
+}
+.ui-contentMenu{
+  position: fixed;
+  top: 224px;
+  left: 50%;
+  margin-left: -256px;
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 10px;
+  width: 512px;
+  height: 256px;
+  z-index: 1;
+}

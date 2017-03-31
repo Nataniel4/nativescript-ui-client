@@ -1,0 +1,40 @@
+<center>
+  <br>
+  <span style="font-size:28px;">Build project (debug only)</span>
+  <div class="ui-contentMenu">
+    <br><br>
+    <table cellspacing="10">
+      <tr>
+        <td>
+          <input type="button" value="Select project" onclick="NSBuildProject.selectProject();">
+          <br><br>
+          <input type="button" value="Output folder" onclick="NSBuildProject.selectFolder();">
+        </td>
+        <td>
+          <input type="text" id="project" readonly="true">
+          <br><br>
+          <input type="text" id="outputFolder" readonly="true">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="radio" name="buildFor" id="buildForAndroid"> Android
+          <br>
+          <input type="radio" name="buildFor" id="buildForIos"> iOS
+          <br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <br>
+          <input type="button" value="Build project" onclick="NSBuildProject.buildProject();">
+        </td>
+        <td style="text-align:right;padding-right:32px;">
+          <br>
+          <input type="button" value="Cancel" onclick="NSApplication.ui.backToMenu();">
+        </td>
+      </tr>
+    </table>
+    <br>
+  </div>
+</center>

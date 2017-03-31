@@ -1,0 +1,19 @@
+<center>
+  <br>
+  <span style="font-size:28px;">Settings</span>
+  <div class="ui-contentMenu">
+    <br><br><br><br><br><br>
+    <input type="checkbox" id="closeTerminal" onchange="if(document.getElementById('closeTerminal').checked === true){NSApplication.settings.closeTerminal = true;NSApplication.saveSettings();}else{NSApplication.settings.closeTerminal = false;NSApplication.saveSettings();};"> Close Terminal when any process finish. (May create recovery windows in Terminal)
+    <br><br><br>
+    <input type="button" value="Done" onclick="NSApplication.ui.backToMenu();">
+    <!--table cellspacing="10">
+      <tr>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+    </table-->
+    <br>
+  </div>
+</center>

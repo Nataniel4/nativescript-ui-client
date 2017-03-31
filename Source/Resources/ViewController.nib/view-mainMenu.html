@@ -1,0 +1,30 @@
+<center>
+  <br>
+  <span style="font-size:28px;">Welcome to NativeScript</span>
+  <table class="ui-mainMenu" cellspacing="10">
+    <tr>
+      <td onclick="NSApplication.ui.bannerColor('#ff0080');NSApplication.ui.load(document.getElementsByClassName('ui-content')[0],NSApplication.getAppPath()+'/Resources/ViewController.nib/view-newProject.html');">
+        <img src="Resources/icon-newProject.png" alt="">
+        <br><br>
+        New project
+      </td>
+      <td onclick="NSApplication.ui.bannerColor('#008000');NSApplication.ui.load(document.getElementsByClassName('ui-content')[0],NSApplication.getAppPath()+'/Resources/ViewController.nib/view-runProject.html');">
+        <img src="Resources/icon-runProject.png" alt="">
+        <br><br>
+        Run project
+      </td>
+    </tr>
+    <tr>
+      <td onclick="NSApplication.ui.bannerColor('#ff8000');NSApplication.ui.load(document.getElementsByClassName('ui-content')[0],NSApplication.getAppPath()+'/Resources/ViewController.nib/view-buildProject.html');">
+        <img src="Resources/icon-buildProject.png" alt="">
+        <br><br>
+        Build project
+      </td>
+      <td onclick="NSApplication.ui.bannerColor('#8000ff');NSApplication.ui.load(document.getElementsByClassName('ui-content')[0],NSApplication.getAppPath()+'/Resources/ViewController.nib/view-settings.html');NSSettings.refresh();">
+        <img src="Resources/icon-settings.png" alt="">
+        <br><br>
+        Settings
+      </td>
+    </tr>
+  </table>
+</center>

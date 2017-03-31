@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NativeScript</title>
+    <link rel="stylesheet" href="UIKit-darwin-alt.css">
+    <link rel="stylesheet" href="ViewController.css">
+    <script src="ViewController.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="ui-loading">
+      <div>
+        <img src="Resources/ani-loading.gif" style="height:100%;" alt="">
+      </div>
+    </div>
+    <div class="ui-titlebar"></div>
+    <div class="ui-window">
+    <div class="ui-banner">
+      <img src="Resources/logo-nativescript.svg" style="height:64px;" onclick="NSElectron.getCurrentWindow().openDevTools();">
+    </div>
+    <div class="ui-content"></div>
+  </div>
+  </body>
+</html>

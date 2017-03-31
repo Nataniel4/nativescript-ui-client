@@ -1,0 +1,50 @@
+<center>
+  <br>
+  <span style="font-size:28px;">New project</span>
+  <div class="ui-contentMenu">
+    <br><br><br>
+    <table cellspacing="10">
+      <tr>
+        <td>
+          Project name:
+        </td>
+        <td>
+          <input type="text" id="projname" onchange="NSNewProject.validateProjName()">
+          <img id="projnameError" src="Resources/icon-error36.png" style="vertical-align:bottom;margin-left:5px;height:22px;cursor:pointer;" onclick="alert('The project name should only contain letters and numbers.');">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" id="customTemplateCheckbox" onchange="NSNewProject.toogleCustomTemplate();">
+          Use custom template
+        </td>
+      </tr>
+      <tr id="template-mode">
+        <td>
+          Template:
+        </td>
+        <td>
+          <select class="" id="template">
+            <option value="tns-template-blank">Blank</option>
+            <option value="tns-template-hello-world">Hello world</option>
+            <option value="tns-template-hello-world-ts">Hello world (TypeScript)</option>
+            <option value="typescript">TypeScript</option>
+            <option value="tns-template-master-detail">Master detail</option>
+            <option value="tns-template-tab-navigation">Tab navigation</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <br>
+          <input type="button" value="Create project" onclick="NSNewProject.createProject();">
+        </td>
+        <td style="text-align:right;padding-right:32px;">
+          <br>
+          <input type="button" value="Cancel" onclick="NSApplication.ui.backToMenu();">
+        </td>
+      </tr>
+    </table>
+    <br>
+  </div>
+</center>
