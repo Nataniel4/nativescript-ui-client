@@ -1,4 +1,4 @@
-# NativeScript UI Client (macOS only)
+# NativeScript UI (macOS only)
 
 A simple user interface for NativeScript CLI (macOS only)
 
