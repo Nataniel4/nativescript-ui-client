@@ -2,6 +2,8 @@
 
 A simple user interface for NativeScript CLI (macOS only)
 
+![](https://raw.githubusercontent.com/Nataniel4/nativescript-ui-client/master/screenshot.png)
+
 ### Prerequisites
 
 You need the NativeScript CLI installed first.
@@ -11,6 +13,6 @@ You need the NativeScript CLI installed first.
 
 * [Electron](http://electron.atom.io/)
 
-## Authors
+## Author
 
-* **Nataniel López** - *
+* **Nataniel López**
